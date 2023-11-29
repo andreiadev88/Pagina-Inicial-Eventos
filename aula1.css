@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Lato:wght@300&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../aula1/img/fundo-claro-brilhante-turva_23-2148132728.jpg");
+    color: white;
+}
+
+ul>li {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+ol>li {
+    margin-left: 30px;
+}
+
+
+#titulo {
+    font-family: 'Playfair Display', serif;
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 50px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+}
+
+.listas {
+    color: white;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: green;
+}
+
+img {
+    width: 200px;
+}
+
+#cabecalho {
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+
+#footer {
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+    
+
