@@ -1,0 +1,194 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Lato:wght@300&family=Open+Sans:wght@300&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&family=Lato:wght@300&family=Open+Sans:wght@300&family=Rubik+Bubbles&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family:'Comic Sans MS, Comic Sans, cursive' ;
+  background-color:#f3e8ff;
+  color: #1F0049;
+}
+
+ul>li {
+  list-style-type: none;
+  margin-left: 30px;
+}
+
+ol>li {
+  margin-left: 30px;
+}
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  display: block;
+  margin: auto;
+}
+
+#cabecalho {
+  width: 100%;
+  height: 120px;
+  background-color:#bfc4ff;
+}
+
+.logo{
+  height: 200px;
+}
+
+#conteudo{
+  min-height: calc(100vh - 240px);
+}
+
+h1{
+  font-family: 'Comic Sans MS, Comic Sans, cursive';
+  padding-top: 58px;
+  font-size: 36px;
+  font-weight: 400;
+  color: #4a7599;
+}
+
+h2{
+  font-family:'Comic Sans MS, Comic Sans, cursive' ;
+  color: #4a7599;
+}
+
+/* .slogan {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  line-height: 2em; /* dobro da altura da fonte */
+  /* color: #6F9F9C;
+}  */
+
+.lista-eventos {
+  display: flex;
+  flex-direction: row;
+  /*  PRATICANDO FLEXBOX */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  gap: 10px;
+  padding: 20px 0 40px 0;
+}
+
+.lista-eventos li {
+  width: 360px;
+  min-height: 320px;
+  background-color: #fffaca;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+}
+
+.lista-eventos li:first-child {
+  background-color: #fffaca;
+}
+
+.lista-eventos h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  padding: 15px 15px 0 15px;
+  font-weight: 300;
+  line-height: 150%; /* com porcentagem também funciona */
+}
+
+.lista-eventos img {
+  padding: 15px;
+  width: calc(100% - 30px); /* o calc serve para fazer calculos matemáticos de valores */
+  aspect-ratio: 15/10;
+}
+
+.lista-eventos a {
+  display: block;
+  margin: 15px;
+  width: calc(100% - 30px);
+  line-height: 36px;
+  height: 36px;
+  background-color: #82a3f3;
+  color:  #fffaca;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.lista-eventos button:hover {
+  background-color: #6F9F9C;
+}
+
+.enquete {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 80px;
+}
+
+.resultados, .votacao {
+  width: 50%;
+  min-height: 200px;
+  background-color:  #fffaca;
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
+}
+
+.resultados h3, .votacao h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 21px;
+  padding: 15px 15px 0 15px;
+  font-weight: 300;
+  line-height: 150%;
+}
+
+.resultados ol {
+  padding: 10px 0 0 10px; 
+}
+
+.resultados ol li {
+  font-size: 16px;
+  line-height: 200%;
+}
+
+.votacao form {
+  padding-top: 10px;
+}
+
+.votacao input {
+  margin-left: 30px;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.votacao input[type="text"] {
+  font-size: 12px;
+  margin-left: 10px;
+  width: 250px;
+}
+
+.btn-form {
+  width: calc(100% - 60px);
+  margin: 10px 0 10px 0;
+  height: 36px;
+  background-color: #82a3f3;
+  color: #fffaca;
+  text-align: center;
+  border-radius: 18px;
+}
+
+#rodape {
+  width: 100%;
+  padding-top: 45px;
+  height: 75px;
+  background-color: #bfc4ff;
+  color: #1F0049;
+  font-size: 1.25em;
+}
+
+

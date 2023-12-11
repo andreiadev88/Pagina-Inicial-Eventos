@@ -1,93 +1,110 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <link rel="stylesheet" type="text/css" href="../aula1/aula1.css" media="screen" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Life Eventos</title>
-</head>
-
-<body>
+<html>
+    <head>
+        <link rel="stylesheet" href="../aula1/css/home.css" />
+        <title>Casa de Festas Happy Life</title>
+    </head>
+  <body>
     <div id="cabecalho">
-        <h1 id="titulo">Happy Life</h1>
+      <div class="container">
+        <img class="logo" src="img/logo happy.png" alt="Logomarca da casa de festas Happy Life" />
+      </div>
     </div>
-
-    <p>Essa é a casa de festas que realiza sonhos</p>
-    <br>
-    <h2>Próximos eventos:</h2>
-    <ul>
-        <li>
+    <div id="conteudo">
+      <div class="container">
+        
+        <h1>VAMOS FESTEJAR? </h1><br>
+        <h2 class="secao-eventos">Próximos eventos:</h2>
+        <ul class="lista-eventos">
+          <li>
+            <h3>17/12 - Formatura Colegio D. Pedro</h3>
+            <img src="img/formatura.jpg" alt="Foto de grupo de alunas celebrando a formatura" />
             <br>
-            <p>17/12<br> Formatura Colégio D. Pedro</p>
-            <img src="img/formatura.jpg" width="240" alt="Imagem de alunos celebrando a fromatura" />
-            <br><br>
-            <a href="#ingressos"><button>Compre aqui</button></a>
-            <br><br>
-            <a href="https://www.google.com.br/" target="_blank"><button> Clique para detalhes</button>
-                <br><br>
-                <a href="https://api.whatsapp.com/send?phone=5511000000000" target="_blank"><button>Clique aqui para
-                        dúvidas</button></a>
-
-
-        </li>
-        <li>
+            <a href="formatura.html">Clique para detalhes</a>
+          </li>
+          <li>
+            <h3>24/12 - Natal Beneficente</h3>
+            <img src="img/natal.jpg" alt="Foto de celebração de Natal" />
             <br>
-            <p>24/12<br>Festa de Natal Beneficente</p>
-            <img src="img/natal.jpg" width="240" alt="Imagem de um papai noel " />
+            <a href="#">Clique para detalhes</a>
+          </li>
+          <li>
+            <h3>31/12 - Reveillon Happy Life</h3>
+            <img src="img/reveillon.jpg" alt="Foto do evento de reveillon" /> 
             <br>
-            <a href="#ingressos"><button>Compre aqui</button></a>
-            <br><br>
-            <a href="https://www.google.com.br/" target="_blank"><button>Clique para detalhes</button></a>
-            <br><br>
-            <a href="https://api.whatsapp.com/send?phone=5511949814160&text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
-                target="_blank"><button> Clique aqui para dúvidas</button></a>
-
-        </li>
-        <li>
-            <br>
-            <p>31/12<br>Reveillon Mamma Mia</p>
-            <img src="img/reveillon.jpg" width="240" alt="Imagem de Reveillon" />
-            <br>
-            <a href="#ingressos"><button>Compre aqui</button></a>
-            <br><br>
-            <a href="https://www.google.com.br/" target="_blank"> <button>Clique para detalhes</button></a>
-            <br><br>
-            <a href="https://api.whatsapp.com/send?phone=5511949814160&text=Gostaria%20de%20mais%20informa%C3%A7%C3%B5es"
-                target="_blank"><button>Clique aqui para dúvidas</button></a>
-
-        </li>
-    </ul>
-    <br>
-    <h2>Votação para atração musical do Reveillon</h2>
-    <ol>
-        <li>
-            <p>DJ (48%)</p>
-            <img src="img/DJ.jpg" width="240" alt="Imagem de um DJ tocando" />
-        </li>
-
-        <li>
-            <p>Grupo de Pagode (20%)</p>
-            <img src="img/PAGODE.jpg" width="240" alt="Imagem de um integrante do grupo de pagode tocando pandeiro" />
-        </li>
-
-        <li>
-            <p>Banda de Rock (16%)</p>
-            <img src="img/logosrock.jpg" width="240" alt="Imagemn com várias logos de bandas de rock" />
-        </li>
-    </ol>
-
-</body>
-<footer>
-    <p>&copy; 2023 - Todos os direitos reservados</p>
-    <p>Entre em contato pelo e-mail: contato@contato.com</p>
-    <nav>
-        <ul>
-            <li><a href="#">Termos de uso</a></li>
-            <li><a href="#">Política de privacidade</a></li>
-            <li><a href="#">Sobre nós</a></li>
+            <a href="#">Clique para detalhes</a>
+          </li>
         </ul>
-    </nav>
-</footer>
+        <h2 class="secao-enquete">Votação para atração musical do Reveillon:</h2>
+        <div class="enquete">
+          <div class="resultados">
+            <h3>Resultados Parciais</h3>
+            <ol>
+              <li>DJ (48%)</li>
+              <li>Grupo de Pagode (20%)</li>
+              <li>Banda de Rock (16%)</li>
+            </ol>
+          </div>
+          <div class="votacao">
+            <h3>Vote aqui!</h3>
+            
+              <!-- EXEMPLO DE CAMPOS DE DIGITAÇÃO -->
+              <!-- <label for="nome">Nome: </label>  
+              <input type="text" name="nome" value="" placeholder="Ex.: Jose dos Santos" />
+              <br>
+              <label for="email">E-mail: </label>
+              <input type="email" name="email" value="" placeholder="teste@teste.com" />
+              <br>
+              <label for="senha">Senha: </label>
+              <input type="password" name="senha" />
+              <br>
+              <label for="mensagem">Mensagem: </label><br>
+              <textarea name="mensagem" rows="10"></textarea>
+              <br> -->
 
+              <!-- EXEMPLO DE CAMPOS DE SELEÇÃO -->
+              <!-- <label for="atracao_musical">Atração musical: </label>
+              <select name="atracao_musical">
+                <option value="dj">DJ</option>
+                <option value="pagode">Grupo de Pagode</option>
+                <option value="rock">Banda de Rock</option>
+              </select> -->
+
+              <!-- <label for="atracao_musical">Atracao Musical: </label><br>
+              <input type="checkbox" name="atracao_musical" value="DJ" />
+              <label for="dj">DJ</label><br>
+              <input type="checkbox" name="atracao_musical" value="pagode" />
+              <label for="pagode">Pagode</label><br>
+              <input type="checkbox" name="atracao_musical" value="rock" />
+              <label for="rock">Banda de Rock</label> -->
+              
+            <form action="#" method="get">
+              <div class="formbox">
+                <input type="radio" name="atracao_musical" value="DJ" /> 
+                <label for="dj">DJ</label>
+              </div>
+              <div class="formbox">
+                <input type="radio" name="atracao_musical" value="pagode" />
+                <label for="pagode">Pagode</label>
+              </div>
+              <div class="formbox">
+                <input type="radio" name="atracao_musical" value="rock" />
+                <label for="rock">Banda de Rock</label>
+              </div>
+              <div class="formbox">
+                <input type="radio" name="atracao_musical" value="outro" />
+                <label for="outro">Outro. Qual?</label>
+                <input type="text" name="outra_atração" placeholder="Digite qual atração musical você quer" />
+              </div>
+              <input type="submit" class="btn-form" value="Votar" />
+            </form>
+          </div>
+        </div>   
+      </div>
+    </div>
+    <div id="rodape">
+      <div class="container">
+        <p>&copy; 2023 | Site desenvolvido por Andreia Silva</p>
+      </div>
+    </div>
+  </body>
 </html>
