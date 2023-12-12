@@ -11,9 +11,13 @@ body {
     height: 120px;
     background-color: #bfc4ff;
 }
+#cabecalho a:hover{
+    background-color: transparent;
+}
 
 .logo {
-  height: 200px;
+  height: 250px;
+  margin-top: -15px;
 }
 
 #conteudo {
@@ -33,14 +37,79 @@ h2 {
     font-size: 24px;
     padding-bottom: 12px;
     font-weight: 400;
-    color: #6F9F9C;
+    color:  #1F0049;
+}
+h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    padding-top: 15px;
+    font-weight: 300;
+    line-height: 150%; /* com porcentagem também funciona */
 }
 
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+a {
+    margin-top: 15px;
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.25em;
+    background-color:  #bfc4ff;
+    color: #176cab!important;
+    text-decoration: none !important;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: transparent;
+}
 #rodape {
     width: 100%;
     padding-top: 45px;
     height: 120px;
     background-color: #bfc4ff;
-    color: #1F0049;
+    color:  #1F0049;
     font-size: 1.25em;
+}
+.menu{
+    padding: 10px;
+    float: right;
+    
+}
+
+.menu li{
+    list-style-type: none;
+    padding-bottom: 20px;
+    
+}
+
+.menu li:last-child{
+   padding-right: 0px; 
+}
+
+.menu li a{
+    color: #1F0049;
+}
+
+.menu li a:hover{
+    background-color: transparent;
+    color: #6F9F9C !important;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    background-color:  #82a3f3;
+    color: #fffaca ;
+    height: 36px;
+    line-height: 36px;
+    border: none;
 }
